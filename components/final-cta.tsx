@@ -59,7 +59,7 @@ export function FinalCTA() {
             onClick={handleDownloadResume}
             className="rounded-full px-8 h-14 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
           >
-            Download Resume
+            Preview Resume
           </Button>
         </div>
 

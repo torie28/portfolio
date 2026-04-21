@@ -77,6 +77,7 @@ export function Hero() {
         >
           Full-stack developer passionate about creating elegant solutions to complex problems.
           Specializing in modern web technologies and user-centric design.
+          I am a full-stack developer skilled in PHP, Java, JavaScript, Laravel, Spring Boot, Angular, React and MySQL. I enjoy designing scalable applications.
         </motion.p>
 
         {/* CTAs */}

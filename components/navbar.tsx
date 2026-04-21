@@ -10,7 +10,7 @@ const navItems = [
   { label: "Experience", section: "features" },
   { label: "Skills", section: "skills" },
   { label: "Projects", section: "projects" },
-  { label: "Contact", section: "contact" },
+  { label: "Abount", section: "Aout" },
 ]
 
 export function Navbar() {

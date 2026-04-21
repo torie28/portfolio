@@ -24,7 +24,7 @@ const instrumentSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Apex - Enterprise SaaS Platform",
+  title: "Portfolio",
   description: "The modern platform for teams who ship fast. Built for scale, designed for speed.",
   generator: 'v0.app',
   icons: {
