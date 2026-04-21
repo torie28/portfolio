@@ -24,8 +24,8 @@ const instrumentSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "The modern platform for teams who ship fast. Built for scale, designed for speed.",
+  title: "Full Stack Developer Portfolio",
+  description: "Professional full-stack developer specializing in modern web technologies, scalable applications, and innovative solutions.",
   generator: 'v0.app',
   icons: {
     icon: '/icon.svg',
