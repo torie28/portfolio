@@ -5,6 +5,7 @@ import localFont from "next/font/local"
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from "@/components/google-analytics"
 import { ThemeProvider } from "@/components/theme-provider"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css"
 
 const manrope = Manrope({
