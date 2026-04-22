@@ -65,6 +65,7 @@ export default function RootLayout({
           <div className="noise-overlay" aria-hidden="true" />
           {children}
           <Analytics />
+          <SpeedInsights />
           <GoogleAnalytics />
         </ThemeProvider>
       </body>
