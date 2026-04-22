@@ -20,7 +20,7 @@ export function FinalCTA() {
   }
 
   return (
-    <section className="py-24 px-4">
+    <section id="contact" className="py-24 px-4">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 40 }}

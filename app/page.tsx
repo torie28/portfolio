@@ -8,6 +8,7 @@ import { Skills } from "@/components/skills"
 // import { AboutContact } from "@/components/about-contact"
 import { FinalCTA } from "@/components/final-cta"
 import { Footer } from "@/components/footer"
+import { AboutContact } from "@/components/about-contact"
 
 export default function Home() {
   return (

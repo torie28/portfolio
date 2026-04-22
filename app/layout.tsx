@@ -4,6 +4,7 @@ import { Manrope } from "next/font/google"
 import localFont from "next/font/local"
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from "@/components/google-analytics"
+import WhatsAppWidget from "@/components/whatsapp-widget"
 import { ThemeProvider } from "@/components/theme-provider"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css"
@@ -64,6 +65,7 @@ export default function RootLayout({
         >
           <div className="noise-overlay" aria-hidden="true" />
           {children}
+          <WhatsAppWidget />
           <Analytics />
           <GoogleAnalytics />
         </ThemeProvider>
