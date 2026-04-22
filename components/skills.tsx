@@ -182,7 +182,7 @@ export function Skills() {
             <div className="w-px h-4 bg-zinc-700" />
             <div className="flex items-center gap-2">
               <Globe className="w-4 h-4 text-blue-500" />
-              <span className="text-sm text-zinc-300">5+ Years Experience</span>
+              <span className="text-sm text-zinc-300">4+ Years Experience</span>
             </div>
           </div>
         </motion.div>

@@ -4,7 +4,7 @@ import { motion, useInView, useSpring, useMotionValue, useTransform } from "fram
 import { useRef } from "react"
 
 const footerLinks = {
-  Portfolio: ["Skills", "Projects", "Experience",],
+  Pastory: ["Skills", "Projects", "Experience",],
   Connect: ["Email", "LinkedIn",]
   // Resources: ["Blog", "Tutorials", "Open Source", "Speaking", "Mentoring"],
   // Legal: ["Privacy", "Terms", "Cookies", "License"],
@@ -107,7 +107,7 @@ export function Footer() {
                 className="font-semibold text-white"
                 whileHover={{ color: "#f3f4f6" }}
               >
-                Portfolio
+                Pastory Joseph
               </motion.span>
             </motion.a>
             <motion.p
@@ -116,7 +116,7 @@ export function Footer() {
               animate={isInView ? { opacity: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Building digital experiences that make a difference.
+              Building exceptional digital experiences with classical elegance.
             </motion.p>
             {/* Availability Status */}
             <motion.div
@@ -215,7 +215,7 @@ export function Footer() {
             whileHover={{ color: "#d1d5db" }}
             transition={{ duration: 0.2 }}
           >
-            &copy; {new Date().getFullYear()} Personal Portfolio. Built with passion.
+            &copy; {new Date().getFullYear()} Pastory Joseph. Built with passion.
           </motion.p>
           {/* <div className="flex items-center gap-6">
             {['GitHub', 'LinkedIn', 'Twitter'].map((social, index) => (
