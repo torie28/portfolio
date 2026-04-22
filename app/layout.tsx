@@ -43,14 +43,14 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BGSH66TWP"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6V356J1C9"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-4BGSH66TWP');
+              gtag('config', 'G-H6V356J1C9');
             `,
           }}
         />
