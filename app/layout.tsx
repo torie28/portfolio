@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Manrope } from "next/font/google"
 import localFont from "next/font/local"
 import { Analytics } from "@vercel/analytics/next"
+import { GoogleAnalytics } from "@/components/google-analytics"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
@@ -49,6 +50,7 @@ export default function RootLayout({
           <div className="noise-overlay" aria-hidden="true" />
           {children}
           <Analytics />
+          <GoogleAnalytics />
         </ThemeProvider>
       </body>
     </html>
