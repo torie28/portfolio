@@ -360,14 +360,14 @@ export function FinalCTA() {
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </a>
-          <Button
+          {/* <Button
             variant="outline"
             size="lg"
             onClick={handlePreviewResume}
             className="rounded-full px-8 h-14 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
           >
             Preview Resume
-          </Button>
+          </Button> */}
         </div>
 
         <p className="mt-8 text-sm text-zinc-500">Available for freelance projects and full-time opportunities.</p>
