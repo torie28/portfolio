@@ -376,7 +376,7 @@ export function FinalCTA() {
       {/* Resume Preview Modal */}
       {showResumeModal && (
         <div
-          className="fixed inset-0 bg-black/95 backdrop-blur-md z-[9999] flex items-center justify-center p-2 sm:p-4"
+          className="fixed inset-0 bg-black/95 backdrop-blur-md  flex items-center justify-center p-2 sm:p-4"
           onContextMenu={(e) => e.preventDefault()}
           onSelect={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
